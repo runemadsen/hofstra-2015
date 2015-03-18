@@ -24,10 +24,10 @@ body {
 .reveal .slides > section, .reveal .slides > section > section {
   line-height: 1.3;
   font-weight: inherit;
-  padding: 40px 0px;
+  text-align: left;
 }
 
-/* Invert 
+/* Invert
 ------------------------------------------------ */
 
 html.invert .slide-background.present {
@@ -224,7 +224,6 @@ html.invert h1, html.invert h2, html.invert h3 {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #222;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a img {
