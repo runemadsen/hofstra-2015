@@ -131,12 +131,19 @@ html.invert h1, html.invert h2, html.invert h3 {
 .reveal blockquote {
   display: block;
   position: relative;
-  width: 70%;
+  width: 72%;
   margin: 20px auto;
   padding: 5px;
   font-style: italic;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+  font-size: 1.3em;
+}
+
+.reveal blockquote .author {
+  color: gray;
+  display: block;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
 
 .reveal blockquote p:first-child, .reveal blockquote p:last-child {
   display: inline-block; }
@@ -223,18 +230,11 @@ html.invert h1, html.invert h2, html.invert h3 {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
-
-.reveal a img {
-  -webkit-transition: all 0.15s linear;
-  -moz-transition: all 0.15s linear;
-  transition: all 0.15s linear; }
+}
 
 .reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
   border-color: #2a76dd;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
